@@ -9,12 +9,14 @@ function threeSum(arr, target) {
 				{
 					sum=sum+arr[j];
 				}
-			if(sum!=target && sum>=target+1)
+			if(sum!=target && sum>=target+1 )
 			{
 				num=sum;
 			}
-			return num;
+			
 		}
+
+	return num;
 
 }
 
